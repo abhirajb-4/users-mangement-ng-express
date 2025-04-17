@@ -1,0 +1,12 @@
+# Ignore node_modules for both frontend and backend
+frontend/node_modules/
+backend/node_modules/
+
+# Logs
+*.log
+
+
+
+# Dist/build
+frontend/dist/
+backend/dist/

@@ -1,0 +1,5 @@
+<form (ngSubmit)="updateUser()">
+  <input type="text" [(ngModel)]="username" name="username" placeholder="Username" class="form-control mb-3" required />
+  <input type="password" [(ngModel)]="password" name="password" placeholder="Password" class="form-control mb-3" required />
+  <button type="submit" class="btn btn-primary">Update User</button>
+</form>
